@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Blue Orbits</title>
+  <meta name="description" content="Basic HTML/Tailwind starter" />
+  <meta name="author" content="Daily Dev Tips" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/custom.css" />
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@3.0.0-beta.6/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/index.js"></script>     
+</head>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/64594d14ad80445890ebccdc/1gvuda6um';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+
+<!--Start of Tawk.to Script-->
+
+<body>
+  <!-- header -->
+  <header class="bg-white sticky top-0 z-10 drop-shadow-md  ">
+    <nav class="container   flex  items-center justify-between py-6 " aria-label="Global">
+      <div class="flex lg:flex-1">
+        <a href="/">
+          <img class="lg:w-44 xl:w-[200px]" src="./assets/logo.png" alt="logo">
+        </a>
+      </div>
+      <div class="flex items-center">
+        <div class="text-right mr-7">
+          <div class="flex justify-end items-center">
+            <img class="w-5 mr-2" src="./assets/comments.png" />
+            <p class=" md:text-sm lg:text-sm xl:text-base 	text-black ">Talk to Us</p>
+          </div>
+          <p class="lg:text-base xl:text-lg	text-black ">+1 (302) 966-9328</p>
+        </div>
+        <button type="button"
+          class="h-12	 flex items-center font-poppins rounded-lg bg-primary px-3.5 py-3 lg:text-sm  xl:text-base	 font-medium text-white  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 "><img
+            class="w-6 h-6 mr-2" src="./assets/call-calling.png" /> Request a Call</button>
+      </div>
+    </nav>
+  </header>
+  <!-- banner -->
+  <section class="bg-center bg-no-repeat	bg-cover	py-16" style="background-image: url(./assets/bg.png)">
+    <div class="container ">
+      <div class="flex items-center justify-between ">
+        <!-- banner content -->
+        <div data-aos="fade-up" data-aos-duration="1200" class="text-white text-left col-span-2 pr-20 w-8/12 mt-[8rem]">
+          <p class="text-3xl	font-light	">Expedite Your Projects</p>
+          <p class="xl:text-7xl lg:text-6xl	font-medium mt-3 lg:leading-[4rem] xl:leading-[6rem]">IT Staff Augmentation Services for All Your Projects</p>
+          <p  class="xl:text-2xl lg:text-xl	 font-medium mt-8 xl:leading-relaxed	">Veraqor is your go-to IT staff augmentation company,
+            helping you stay competitive and providing you with every chance to stay ahead of your competitors. Among
+            all the IT staff companies, our IT staffing services ensure timely project delivery, unmatched support and
+            excellence.</p>
+          <button type="button"
+            class="mt-8 h-14	 flex items-center font-poppins rounded-[10px] bg-primary px-5  text-base	 font-medium text-white  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 ">Book
+            a Free Consultation <img class="w-6 h-6 ml-5" src="./assets/arrow.png" /> </button>
+        </div>
+        <!-- info form -->
+        <div data-aos="fade-up" data-aos-duration="1200" class="bg-white rounded-[30px]  p-12 w-5/12	">
+          <p class="text-themeBlack text-4xl	font-semibold text-center">Let’s Get In Touch</p>
+          <div class="form__group field">
+            <input type="input" class="form__field" placeholder="Name" name="name" id='name' required />
+            <label for="name" class="form__label">Name</label>
+          </div>
+          <div class="form__group field">
+            <input type="input" class="form__field" placeholder="EMAIL" name="email" id='email' required />
+            <label for="email" class="form__label">EMAIL</label>
+          </div>
+          <div class="form__group field">
+            <input type="input" class="form__field" placeholder="PHONE NUMBER" name="phoneNumber" id='phoneNumber'
+              required />
+            <label for="phoneNumber" class="form__label">PHONE NUMBER</label>
+          </div>
+          <div class="mt-10">
+            <label class="!text-left text-lg	text-themeBlack">PLEASE TELL US ABOUT YOUR REQUIREMENTS</label>
+            <div style="padding:0; margin:0;" class="form__group field">
+              <textarea rows="3" cols="40" class="form__field" placeholder="PLEASE TELL US ABOUT YOUR REQUIREMENTS"
+                name="query" id='query' required></textarea>
+            </div>
+          </div>
+          <div class="flex 	 my-12">
+            <div class="custom_checkbox excluded checked"></div>
+            <p class="text-lg	text-themeBlack ml-6">Yes, I am looking to Hire Remote Team</p>
+          </div>
+          <button class="flex justify-start items-center text-2xl	font-medium text-themeBlack">Submit Request <img
+              alto="arrow" class="ml-5" src="./assets/arrowForm.png" /> </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- truseted -->
+  <section class="bg-primary	py-8">
+    <div class="container xl:px-28 lg:px-0 ">
+      <div class="flex items-center justify-between mx-20">
+        <p class="text-3xl	font-medium text-white opacity-70	">Trusted by:</p>
+        <img src="./assets/truestedBy-1.png" />
+        <img src="./assets/truestedBy-2.png" />
+        <img src="./assets/truestedBy-3.png" />
+        <img src="./assets/truestedBy-4.png" />
+        <img src="./assets/truestedBy-5.png" />
+      </div>
+    </div>
+  </section>
+  <!-- Deliver Scalable Tech Solutions -->
+  <section class="bg-white py-28">
+    <div class="flex justify-between ">
+      <div data-aos-duration="1200" data-aos="fade-right" class="lg:w-3/5 xl:w-2/5 pr-24">
+        <lottie-player class="w-full" src="./assets/lottie.json" background="transparent"  speed="1"   loop  autoplay></lottie-player>
+      </div>
+      <div data-aos-duration="1200" data-aos="fade-left" class="w-3/5 mr-[6rem]">
+        <p class="text-themeBlack text-5xl	font-medium ">We Deliver Scalable Tech Solutions</p>
+        <p class="text-gray text-2xl	leading-[2.5rem] font-light	mt-7 pr-[8rem]">We are the expert partner you need to
+          deliver scalable, innovative, and competitive results. From fully managed Delivery Teams to individual expert
+          software engineers, we specialize in solid end-to-end delivery of tailor-made technology solutions.</p>
+        <div class="h-[2px] bg-black opacity-10 my-12"></div>
+        <div class="flex justify-between items-center">
+          <div class="w-2/5	 flex justify-start items-start">
+            <p
+              class="!w-14	!h-14	rounded-[10px] bg-purple text-white font-medium text-2xl	flex justify-center items-center">
+              01</p>
+            <div class="ml-5">
+              <p class="text-themeBlack font-medium text-2xl">Delivery Team</p>
+              <p class="text-gray font-light text-lg	w-[350px]">An expert autonomous team capable of rapidly and
+                efficiently delivering technology solutions and value.</p>
+            </div>
+          </div>
+          <div class="h-[100px] w-[2px] bg-black opacity-10"></div>
+          <div class="w-2/5	flex justify-start items-start">
+            <p
+              class="w-14	h-14	rounded-[10px] bg-purple text-white font-medium text-2xl	flex justify-center items-center">
+              02</p>
+            <div class="ml-5">
+              <p class="text-themeBlack font-medium text-2xl">Extended Team</p>
+              <p class="text-gray font-light text-lg	w-[350px]">The extra talent needed to boost your projects. Top 1%
+                Engineers fully integrated with your team.</p>
+            </div>
+          </div>
+        </div>
+        <button type="button"
+          class="mt-14 h-14	 flex items-center font-poppins rounded-[10px] bg-primary px-5  text-base	 font-medium text-white  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 ">Get
+          Talent Now <img class="w-6 h-6 ml-5" src="./assets/arrow.png" /> </button>
+      </div>
+    </div>
+  </section>
+  <!-- IT Staff -->
+  <section class="py-28 bg-[#F9F9FC]">
+    <div class="container xl:px-28 lg:px-0">
+      <p data-aos-duration="1200" data-aos="fade-up" class="text-7xl text-themeBlack	font-medium  leading-[6rem]">IT Staff Augmentation to extend your Team with Top
+        Class
+        Tech Talent</p>
+      <p data-aos-duration="1200" data-aos="fade-up" class="text-[42px] text-purple	font-medium my-[50px]	">Upscale and Up Skill Your Enterprise with our Staff
+        Augmentation Services</p>
+      <p data-aos-duration="1200" data-aos="fade-up" class="text-4xl	text-themeBlack	font-light  leading-[4rem]	">Looking for an extended arm to augment your
+        existing
+        team as per the evolving project needs? We are considered as one of the best staff augmentation firms offering
+        staff augmentation and managed services to scale your internal development teams quickly in minimal time,
+        fulfilling your unique business requirements. Being the most prominent IT staff augmentation company in India,
+        we ensure to offer 100% “Peace of Mind” with our top-notch team augmentation solutions.</p>
+      <p data-aos-duration="1200" data-aos="fade-up" class="text-4xl	text-themeBlack	font-light mt-10">We have experts of various IT professionals for your specific
+        project needs.</p>
+      <div class="flex justify-start items-start mt-12">
+        <div data-aos-duration="1200" data-aos="fade-right" class="w-2/5	">
+          <p class="text-4xl text-themeBlack flex items-center mt-10	font-light "><img src="./assets/check.png"
+              class="mr-8" /> Frontend Developers </p>
+          <p class="text-4xl text-themeBlack flex items-center mt-10	font-light"><img src="./assets/check.png"
+              class="mr-8" /> Backend Developers </p>
+          <p class="text-4xl text-themeBlack flex items-center mt-10	font-light"><img src="./assets/check.png"
+              class="mr-8" /> UI/UX Designers </p>
+          <p class="text-4xl text-themeBlack flex items-center mt-10	font-light"><img src="./assets/check.png"
+              class="mr-8" /> Project Manager </p>
+          <p class="text-4xl text-themeBlack flex items-center mt-10	font-light"><img src="./assets/check.png"
+              class="mr-8" /> Business Analysts </p>
+        </div>
+        <div data-aos-duration="1200" data-aos="fade-left" class="w-2/5	">
+          <p class="text-4xl text-themeBlack flex items-center mt-10	font-light "><img src="./assets/check.png"
+              class="mr-8" /> DevOps Engineers </p>
+          <p class="text-4xl text-themeBlack flex items-center mt-10	font-light"><img src="./assets/check.png"
+              class="mr-8" /> Cloud Developers </p>
+          <p class="text-4xl text-themeBlack flex items-center mt-10	font-light"><img src="./assets/check.png"
+              class="mr-8" /> QA & Test automation engineers </p>
+          <p class="text-4xl text-themeBlack flex items-center mt-10	font-light"><img src="./assets/check.png"
+              class="mr-8" /> AI/ML Engineers </p>
+          <p class="text-4xl text-themeBlack flex items-center mt-10	font-light"><img src="./assets/check.png"
+              class="mr-8" /> Deep Learning Engineers </p>
+        </div>
+      </div>
+      <button data-aos-duration="1200" data-aos="fade-up" type="button"
+        class="mt-24 h-14	 flex items-center font-poppins rounded-[10px] bg-primary px-5  text-base	 font-medium text-white  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 ">Schedule
+        a Developer Interview <img class="w-6 h-6 ml-5" src="./assets/arrow.png" /> </button>
+    </div>
+  </section>
+  <!-- services -->
+  <section class="bg-white pt-28">
+    <div data-aos-duration="1200" data-aos="fade-up" class="text-center container xl:px-28 lg:px-0">
+      <p class="text-7xl text-themeBlack	font-medium  leading-[6rem] mx-[8rem]">IT Team Augmentation Services to Scale
+        Quickly and Grow Faster</p>
+      <p class="text-[42px] text-purple font-medium my-12">Dedicated Programmers | Designers | QA Engineers | Delivery
+        Manager</p>
+      <p class="text-4xl	text-themeBlack font-light leading-[4rem]">We will be more than happy to lend a helping hand
+        with our software development staff augmentation to extend your IT staff with highly qualified talent at
+        competitive rates. Our IT staff Augmentation services include;</p>
+    </div>
+    <!-- services -->
+    <div class="container xl:px-28 lg:px-0 mt-16">
+      <div data-aos-duration="1200" data-aos="fade-down" class="grid grid-cols-4">
+        <div
+          class="border border-[#D9D9D9] xl:py-16 lg:py-12 lg:px-10 xl:px-20 smartHover">
+          <div class="flex justify-start items-center">
+            <img class="lg:w-16 lg:h-16" src="./assets/services-1.png" />
+            <p class="ml-3 lg:text-xl xl:text-2xl	text-themeBlack font-medium ">MVP Development</p>
+          </div>
+          <ul class="list-disc	mt-6 !pl-5 ">
+            <li class="text-primary mt-4"><span class="text-gray lg:text-sm xl:text-base	font-medium ">iOS App Development</span></li>
+            <li class="text-primary mt-4"><span class="text-gray lg:text-sm xl:text-base	font-medium ">Android App Development</span>
+            </li>
+            <li class="text-primary mt-4"><span class="text-gray lg:text-sm xl:text-base	font-medium ">React Native Development</span>
+            </li>
+            <li class="text-primary mt-4"><span class="text-gray lg:text-sm xl:text-base	font-medium ">Flutter Development</span></li>
+          </ul>
+        </div>
+        <div class="border border-[#D9D9D9] smartHover lg:py-12 lg:px-10 py-16 px-20 border-l-0">
+          <div class="flex justify-start items-center">
+            <img class="lg:w-16 lg:h-16" src="./assets/services-2.png" />
+            <p class="ml-3 lg:text-xl xl:text-2xl	text-themeBlack font-medium">Corporate Internal Product Development</p>
+          </div>
+          <ul class="list-disc	mt-6 !pl-5">
+            <li class="text-primary mt-4"><span class="text-gray lg:text-sm xl:text-base	font-medium ">NFT Game Development</span>
+            </li>
+            <li class="text-primary mt-4"><span class="text-gray lg:text-sm xl:text-base	font-medium ">Unreal Game Development</span>
+            </li>
+            <li class="text-primary mt-4"><span class="text-gray lg:text-sm xl:text-base	font-medium ">Unity Game Development</span>
+            </li>
+            <li class="text-primary mt-4"><span class="text-gray lg:text-sm xl:text-base	font-medium ">AR VR Game Character
+                Design</span></li>
+          </ul>
+        </div>
+        <div class="border border-[#D9D9D9] smartHover lg:py-12 lg:px-10 py-16 px-20 border-l-0">
+          <div class="flex justify-start items-center">
+            <img class="lg:w-16 lg:h-16" src="./assets/services-3.png" />
+            <p class="ml-3 lg:text-xl xl:text-2xl	text-themeBlack font-medium">Web Application Development</p>
+          </div>
+          <ul class="list-disc	mt-6 !pl-5">
+            <li class="text-primary mt-4"><span class="text-gray lg:text-sm xl:text-base	font-medium ">Digital Marketing</span></li>
+            <li class="text-primary mt-4"><span class="text-gray lg:text-sm xl:text-base	font-medium ">App Store Optimisation</span>
+            </li>
+            <li class="text-primary mt-4"><span class="text-gray lg:text-sm xl:text-base	font-medium ">Support & Upgrades</span></li>
+          </ul>
+        </div>
+        <div class="border border-[#D9D9D9] smartHover lg:py-12 lg:px-10 py-16 px-20 border-l-0">
+          <div class="flex justify-start items-center">
+            <img class="lg:w-16 lg:h-16" src="./assets/services-4.png" />
+            <p class="ml-3 lg:text-xl xl:text-2xl	text-themeBlack font-medium">Mobile App Development</p>
+          </div>
+          <ul class="list-disc	mt-6 !pl-5">
+            <li class="text-primary mt-4"><span class="text-gray lg:text-sm xl:text-base	font-medium ">Any Ecommerce</span></li>
+            <li class="text-primary mt-4"><span class="text-gray lg:text-sm xl:text-base	font-medium ">Digital Signage</span></li>
+            <li class="text-primary mt-4"><span class="text-gray lg:text-sm xl:text-base	font-medium ">Immersive Technologies</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Technology Expertise -->
+  <section class="bg-themeBlack py-28">
+    <div class="container xl:px-28 lg:px-0 text-center">
+      <p data-aos-duration="1200" data-aos="fade-up" class="text-[80px] text-white	font-medium ">Technology Expertise</p>
+      <p data-aos-duration="1200" data-aos="fade-up" class="text-4xl	text-white	font-light mt-10 leading-loose">We use best-in-class tools, state-of-the-art
+        technologies and <br> modern approaches to scale up your business</p>
+      <!-- filters -->
+      <div data-aos-duration="1200" data-aos="fade-up" class="max-w-5xl	 mx-auto">
+        <div class="flex justify-between items-center mt-16">
+          <button id="mobile-btn" class="hover:text-primary filter-btn text-2xl text-white font-medium   cursor-pointer  pb-1">
+            Mobile</button>
+          <button id="fullStack-btn" class="filter-btn text-2xl text-white font-medium hover:text-primary cursor-pointer">Full Stack Development</button>
+          <button id="database-btn" class="filter-btn text-2xl text-white font-medium hover:text-primary cursor-pointer">Database</button>
+          <button id="backend-btn" class="filter-btn text-2xl text-white font-medium hover:text-primary cursor-pointer">Backend</button>
+          <button id="blockchain-btn" class="filter-btn text-2xl text-white font-medium hover:text-primary cursor-pointer">Blockchain</button>
+        </div>
+      </div>
+      <!-- filtered-Items -->
+      <div data-aos-duration="1200" data-aos="fade-up" class="max-w-7xl	mx-auto">
+        <div class="grid grid-cols-5 gap-4 mt-10">
+          <div
+            class="hideDiv mobile h-52	w-52	border-[3px] border-gray	rounded-full text-center flex justify-center items-center mt-12">
+            <div>
+              <img class="inline	" src="./assets/apple.png" />
+              <p class="text-white text-xl	font-medium mt-5">iOS</p>
+            </div>
+          </div>
+          <div
+            class="hideDiv mobile h-52	w-52	border-[3px] border-gray	rounded-full text-center flex justify-center items-center mt-12">
+            <div>
+              <img class="inline	" src="./assets/android-logo.png" />
+              <p class="text-white text-xl	font-medium mt-5">Android</p>
+            </div>
+          </div>
+          <div
+            class="hideDiv tablet h-52	w-52	border-[3px] border-gray	rounded-full text-center flex justify-center items-center mt-12">
+            <div>
+              <img class="inline	" src="./assets/ionic.png" />
+              <p class="text-white text-xl	font-medium mt-5">Ionic</p>
+            </div>
+          </div>
+          <div
+            class="hideDiv tablet h-52	w-52	border-[3px] border-gray	rounded-full text-center flex justify-center items-center mt-12">
+            <div>
+              <img class="inline	" src="./assets/kotlin.png" />
+              <p class="text-white text-xl	font-medium mt-5">Kotlin</p>
+            </div>
+          </div>
+          <div
+            class="hideDiv blockChain h-52	w-52	border-[3px] border-gray	rounded-full text-center flex justify-center items-center mt-12">
+            <div>
+              <img class="inline	" src="./assets/flutter-icon.png" />
+              <p class="text-white text-xl	font-medium mt-5">Flutter</p>
+            </div>
+          </div>
+          <div
+            class="hideDiv fullStack h-52	w-52	border-[3px] border-gray	rounded-full text-center flex justify-center items-center mt-12">
+            <div>
+              <img class="inline	" src="./assets/objectC.png" />
+              <p class="text-white text-xl	font-medium mt-5">Objective C</p>
+            </div>
+          </div>
+          <div
+            class="hideDiv swift h-52	w-52	border-[3px] border-gray	rounded-full text-center flex justify-center items-center mt-12">
+            <div>
+              <img class="inline	" src="./assets/swift.png" />
+              <p class="text-white text-xl	font-medium mt-5">Swift</p>
+            </div>
+          </div>
+          <div
+            class="hideDiv backEnd h-52	w-52	border-[3px] border-gray	rounded-full text-center flex justify-center items-center mt-12">
+            <div>
+              <img class="inline	" src="./assets/react-native.png" />
+              <p class="text-white text-xl	font-medium mt-5">React Native</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Augmentation Model -->
+  <section class="bg-white py-28">
+    <div  class="container xl:px-28 lg:px-0">
+      <p data-aos-duration="1200" data-aos="fade-up" class="text-7xl	 text-themeBlack	font-medium leading-loose text-center">Signs You Need Flexible Staff <br>
+        Augmentation Model</p>
+      <div class="grid grid-rows-1 grid-cols-2  mt-24">
+        <div data-aos-duration="1200" data-aos="fade-right" class=" text-left">
+          <img class="lg:w-[550px] xl:w-[700px] inline-block	" src="./assets/augment-1.png" />
+        </div>
+        <div data-aos-duration="1200" data-aos="fade-left">
+          <div class="flex items-center justify-start">
+            <img  src="./assets/check.png" class="mr-9 xl:w-6 lg:w-5" />
+            <p class="xl:text-2xl lg:text-xl text-themeBlack  mt-10	font-light "> Your existing development team’s skill set is not
+              enough to match up the criteria of your growing business. </p>
+          </div>
+          <div class="flex items-center justify-start">
+            <img  src="./assets/check.png" class="mr-9 xl:w-6 lg:w-5" />
+            <p class="xl:text-2xl lg:text-xl text-themeBlack  mt-10	font-light "> You need assistance to introduce new business
+              processes that require adding custom advancements and functionalities.</p>
+          </div>
+          <div class="flex items-center justify-start">
+            <img  src="./assets/check.png" class="mr-9 xl:w-6 lg:w-5" />
+            <p class="xl:text-2xl lg:text-xl text-themeBlack  mt-10	font-light "> Your legacy software require modernization to align
+              with the current business needs.</p>
+          </div>
+          <div class="flex items-center justify-start">
+            <img  src="./assets/check.png" class="mr-9 xl:w-6 lg:w-5" />
+            <p class="xl:text-2xl lg:text-xl text-themeBlack  mt-10	font-light "> Your product's UI/UX needed an update to create the
+              right level of engagement.</p>
+          </div>
+          <div class="flex items-center justify-start">
+            <img  src="./assets/check.png" class="mr-9 xl:w-6 lg:w-5" />
+            <p class="xl:text-2xl lg:text-xl text-themeBlack  mt-10	font-light "> You need an advanced skillset to integrate new
+              modules in your existing product for worry-free business continuity.</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="flex justify-between items-center mt-28">
+        <div data-aos-duration="1200" data-aos="fade-right" class="w-6/12">
+          <div class="flex items-center justify-start mt-10">
+            <img  src="./assets/check.png" class="mr-9 xl:w-6 lg:w-5" />
+            <p class="xl:text-2xl lg:text-xl text-themeBlack  	font-light "> Industry-leading junior, mid-level, and senior
+              talent</p>
+          </div>
+          <div class="flex items-center justify-start mt-10">
+            <img  src="./assets/check.png" class="mr-9 xl:w-6 lg:w-5" />
+            <p class="xl:text-2xl lg:text-xl text-themeBlack  	font-light "> Motivated, productive, and talented resources</p>
+          </div>
+          <div class="flex items-center justify-start mt-10">
+            <img  src="./assets/check.png" class="mr-9 xl:w-6 lg:w-5" />
+            <p class="xl:text-2xl lg:text-xl text-themeBlack  	font-light "> Availability, reliability, and quality guaranteed
+            </p>
+          </div>
+          <div class="flex items-center justify-start mt-10">
+            <img  src="./assets/check.png" class="mr-9 xl:w-6 lg:w-5" />
+            <p class="xl:text-2xl lg:text-xl text-themeBlack  	font-light "> Short-term and long-term engagements</p>
+          </div>
+          <div class="flex items-center justify-start mt-10">
+            <img  src="./assets/check.png" class="mr-9 xl:w-6 lg:w-5" />
+            <p class="xl:text-2xl lg:text-xl text-themeBlack  	font-light "> Flexible team sizes</p>
+          </div>
+
+          <div class="flex items-center justify-start mt-10">
+            <img  src="./assets/check.png" class="mr-9 xl:w-6 lg:w-5" />
+            <p class="xl:text-2xl lg:text-xl text-themeBlack  	font-light "> Team members fully versed in using the Agile Scrum
+              methodology</p>
+          </div>
+          <div class="flex items-center justify-start mt-10">
+            <img  src="./assets/check.png" class="mr-9 xl:w-6 lg:w-5" />
+            <p class="xl:text-2xl lg:text-xl text-themeBlack  	font-light "> Flexible enough to adapt new skill set if needed</p>
+          </div>
+          <div class="flex items-center justify-start mt-10">
+            <img  src="./assets/check.png" class="mr-9 xl:w-6 lg:w-5" />
+            <p class="xl:text-2xl lg:text-xl text-themeBlack  	font-light "> For a dedicated team, a dedicated scrum master will
+              be assigned to ensure your project delivers on time and within budget</p>
+          </div>
+
+        </div>
+        <div data-aos-duration="1200" data-aos="fade-left" class="w-6/12 text-right">
+          <img class="inline-block xl:w-[700px]	lg:w-[580px]" src="./assets/augment-2.png" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- BlueOrbit services -->
+  <section class="bg-themeBlack py-28">
+    <div class="container xl:px-28 lg:px-0">
+      <div class="flex justify-between items-start">
+        <div data-aos-duration="1200" data-aos="fade-right" class="w-2/5">
+          <p class="xl:text-[50px] lg:text-[40px]		 text-white	font-medium leading-relaxed text-left">Why Choose <br> IT Staff
+            Augmentation <br> Services with <span class="lg:!text-[60px] xl:!text-[80px]"><br> BLUE ORBITS?</span></p>
+        </div>
+        <div class="w-3/5  overflow-auto	smoothScroll	-mt-20	">
+          <div>
+            <p class="xl:text-[340px] lg:text-[260px] text-primary	font-medium  text-center	">100+</p>
+            <div class="flex justify-center items-center ">
+              <div class="	 flex justify-start items-start">
+                <p class="text-white font-light text-3xl">Projects Delivered</p>
+              </div>
+              <div class="h-[140px] w-[2px] bg-white mx-10"></div>
+              <div class="	flex justify-start items-start">
+                <p class="text-white font-light text-2xl	w-[400px]">Blue Orbits has successfully initiated, executed,
+                  and delivered projects over national and international platforms.</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <p class="xl:text-[340px] lg:text-[260px] text-primary	font-medium  text-center	">80+</p>
+            <div class="flex justify-center items-center">
+              <div class="	 flex justify-start items-start">
+                <p class="text-white font-light text-3xl">Team Strength</p>
+              </div>
+              <div class="h-[140px] w-[2px] bg-white mx-10"></div>
+              <div class="	flex justify-start items-start">
+                <p class="text-white font-light text-2xl	w-[400px]">Blue Orbits is equipped with a team of more than 80 developers, designers, SEO experts, writers, and more</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <p class="xl:text-[340px] lg:text-[260px] text-primary	font-medium  text-center	">25+</p>
+            <div class="flex justify-center items-center">
+              <div class="	 flex justify-start items-start">
+                <p class="text-white font-light text-3xl">Five Star Rating</p>
+              </div>
+              <div class="h-[140px] w-[2px] bg-white mx-10"></div>
+              <div class="	flex justify-start items-start">
+                <p class="text-white font-light text-2xl	w-[400px]">Our customers-centerism has landed us numerious five star rating.We meet our objective of providing a solid work.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- portfolio -->
+  <section class="bg-[#E0E8E8] py-28">
+    <div class="container xl:px-28 lg:px-0">
+      <p data-aos-duration="1200" data-aos="fade-up" class="text-8xl text-themeBlack	font-medium text-center">Our Clients Love Our Work!</p>
+      <p data-aos-duration="1200" data-aos="fade-up" class="text-4xl text-themeBlack	font-thin text-center leading-relaxed max-w-screen-2xl	mx-auto mt-8 mb-16">In a
+        world of rapid change, there has never been a greater need for future proof brands. We’re the go-to service for
+        renowned global businesses.</p>
+      <div class="grid grid-rows-1 grid-cols-3 gap-14">
+        <!-- teams portfolio -->
+        <div data-aos-duration="1200" data-aos="fade-right">
+          <div class="relative ">
+            <img class="w-full" src="./assets/portfolio-1.png" />
+            <a href="https://www.youtube.com/" target="blank">
+              <div class="hover:cursor-pointer absolute bottom-8 w-full flex justify-between items-center px-8">
+                <div class="text-white">
+                  <p class="xl:text-3xl lg:text-xl	font-medium mb-1">JR Ridge</p>
+                  <p class="lg:text-base xl:text-lg	 font-medium">Project Name, Co-Founder</p>
+                </div>
+                <img class="lg:w-[50px] xl:w-[70px]" src="./assets/playButton.png" />
+              </div>
+            </a>
+          </div>
+          <p class="text-lg font-light text-themeBlack mt-8">They love creating apps to help better the world, help
+            better the society, so they immediately had a connection with my idea.</p>
+        </div>
+        <div data-aos-duration="1200" data-aos="fade-down">
+          <div class="relative ">
+            <img class="w-full" src="./assets/portfolio-2.png" />
+            <a href="https://www.youtube.com/" target="blank">
+              <div class="hover:cursor-pointer absolute bottom-8 w-full flex justify-between items-center px-8">
+                <div class="text-white">
+                  <p class="xl:text-3xl lg:text-xl	font-medium mb-1">Cristina Cabrera</p>
+                  <p class="lg:text-base xl:text-lg	 font-medium">Project Name, Co-Founder</p>
+                </div>
+                <img class="lg:w-[50px] xl:w-[70px]" src="./assets/playButton.png" />
+              </div>
+            </a>
+          </div>
+          <p class="text-lg font-light text-themeBlack mt-8">Blue Orbits has been amazing…it’s a very big project so
+            they break it down into chunks and just perform. I can’t recommend them enough.</p>
+        </div>
+        <div data-aos-duration="1200" data-aos="fade-left">
+          <div class="relative ">
+            <img class="w-full" src="./assets/portfolio-3.png" />
+            <a href="https://www.youtube.com/" target="blank">
+              <div class="hover:cursor-pointer absolute bottom-8 w-full flex justify-between items-center px-8">
+                <div class="text-white">
+                  <p class="xl:text-3xl lg:text-xl	font-medium mb-1">Jessica Gray</p>
+                  <p class="lg:text-base xl:text-lg	 font-medium">Project Name, Co-Founder</p>
+                </div>
+                <img class="lg:w-[50px] xl:w-[70px]" src="./assets/playButton.png" />
+              </div>
+            </a>
+          </div>
+          <p class="text-lg font-light text-themeBlack mt-8">Anything that I asked them to do, they went above and
+            beyond to make sure that it happened.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- query from -->
+  <section class="bg-white py-28">
+    <div class="container xl:px-28 lg:px-0">
+      <div class="grid grid-rows-1 grid-cols-2 gap-14">
+        <div data-aos-duration="1200" data-aos="fade-right" class="bg-[#4057BE] p-16 w-full">
+          <p class="text-white lg:text-[42px] xl:text-[56px] font-medium ">Ready To Become A Digital Titan In Your Niche?</p>
+          <p class="text-white lg:text-xl xl:text-2xl font-light py-10">With modern technology, unparalleled experience & a desire for
+            innovation, our team is ready to bring your digital business idea to life.</p>
+          <p class="text-white text-2xl font-medium pb-12">Fill in this form to start the process</p>
+          <div class="flex justify-start items-center">
+            <div class="mr-7 bg-primary w-[88px] h-[88px] rounded flex justify-center items-center">
+              <img src="./assets/call-calling.png" />
+            </div>
+            <div>
+              <p class="text-white font-medium uppercase text-base	">- GIVE US A CALL</p>
+              <p class="text-white font-bold  text-3xl	mt-1">+1 (302) 966-9328</p>
+            </div>
+          </div>
+        </div>
+        <!-- info form -->
+        <div data-aos-duration="1200" data-aos="fade-left" class="w-full	mt-4">
+          <p class="text-themeBlack text-[56px]	font-medium text-left">Let’s Get In Touch</p>
+          <div class="form__group field">
+            <input type="input" class="form__field" placeholder="Name" name="name" id='name' required />
+            <label for="name" class="form__label">Name</label>
+          </div>
+          <div class="form__group field">
+            <input type="input" class="form__field" placeholder="EMAIL" name="email" id='email' required />
+            <label for="email" class="form__label">EMAIL</label>
+          </div>
+          <div class="form__group field">
+            <input type="input" class="form__field" placeholder="PHONE NUMBER" name="phoneNumber" id='phoneNumber'
+              required />
+            <label for="phoneNumber" class="form__label">PHONE NUMBER</label>
+          </div>
+          <div class="mt-10">
+            <label class="!text-left text-lg	text-themeBlack">COMMENT</label>
+            <div style="padding:0; margin:0;" class="form__group field">
+              <textarea rows="3" cols="40" class="form__field" placeholder="COMMENT" name="comment" id='comment'
+                required></textarea>
+            </div>
+          </div>
+          <button class="flex justify-start items-center text-2xl	font-medium text-themeBlack mt-8">Submit Request <img
+              alto="arrow" class="ml-5" src="./assets/arrowForm.png" /> </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer class="bg-themeBlack pt-24">
+    <div class="container xl:px-28 lg:px-0">
+      <div data-aos-duration="1200" data-aos="fade-up" class="grid grid-rows-1 lg:grid-cols-6 xl:grid-cols-5 gap-28 text-white">
+        <div class="lg:col-span-2 xl:col-span-1">
+          <img src="./assets/logoLight.png" />
+          <p class="lg:text-sm xl:text-base	font-light pt-8 w-[286px]">2600 Central Ave, Suite # O Union City, SanFrancisco,CA 94587 United States</p>
+          <p class="lg:text-sm xl:text-base	font-light flex items-center pt-8"><img class="mr-3" src="./assets/phone-call.png" /> +1 (302) 966-9328</p>
+          <p class="lg:text-sm xl:text-base	font-light flex items-center pt-8"><img class="mr-3" src="./assets/envelope.png" /> hello@blueorbits.com</p>
+        </div>
+        <div>
+          <p class="lg:text-lg xl:text-xl		font-medium pb-9">Trending Tech</p>
+          <ul>
+            <li class="lg:text-base xl:text-lg font-light pb-7">Blockchain</li>
+            <li class="lg:text-base xl:text-lg font-light pb-7">NFT Marketplace</li>
+            <li class="lg:text-base xl:text-lg font-light pb-7">Augmented Reality</li>
+            <li class="lg:text-base xl:text-lg font-light pb-7">Full Stack Development</li>
+          </ul>
+        </div>
+        <div>
+          <ul class="pt-16">
+            <li class="lg:text-base xl:text-lg font-light pb-7">Machine Learning & Ai</li>
+            <li class="lg:text-base xl:text-lg font-light pb-7">5G</li>
+            <li class="lg:text-base xl:text-lg font-light pb-7">Cyber Security</li>
+            <li class="lg:text-base xl:text-lg font-light pb-7">AR VR Game</li>
+          </ul>
+        </div>
+        <div>
+          <p class="lg:text-lg xl:text-xl		font-medium pb-9">Quick Linkz</p>
+          <ul>
+            <li class="lg:text-base xl:text-lg font-light pb-7">About Us</li>
+            <li class="lg:text-base xl:text-lg font-light pb-7">Blog</li>
+            <li class="lg:text-base xl:text-lg font-light pb-7">Work</li>
+            <li class="lg:text-base xl:text-lg font-light pb-7">Services</li>
+          </ul>
+        </div>
+        <div>
+          <ul class="pt-16">
+            <li class="lg:text-base xl:text-lg font-light pb-7">Careers</li>
+            <li class="lg:text-base xl:text-lg font-light pb-7">Contact Us</li>
+            <li class="lg:text-base xl:text-lg font-light pb-7">Terms and Conditions</li>
+            <li class="lg:text-base xl:text-lg font-light pb-7">Privacy Policy</li>
+          </ul>
+        </div>
+      </div>
+      <div class="h-[2px] border-b border-[#FFFFFF14] w-full my-14 block"></div>
+      <!-- copy rights -->
+      <div  class="flex justify-between items-center pb-14">
+        <p class="lg:text-base text-lg	font-light text-white">Copyright © Blue Orbits 2023. All rights reserved</p>
+        <div class="flex justify-end items-center ">
+          <img src="./assets/fb.png" />
+          <img class="mx-4" src="./assets/twitter.png" />
+          <img src="./assets/linkedIn.png" />
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+
+</html>
